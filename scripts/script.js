@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // AOS.init();
+    AOS.init();
 
     new Glide('.glide', {
         type: 'carousel',
