@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', function() {
-    AOS.init();
+    // AOS.init();
 
     new Glide('.glide', {
         type: 'carousel',
-        perView: 2,
-        gap: 20,
+        focusAt: 'center',
+        perView: 3,
         breakpoints: {
             768: {
                 perView: 1
