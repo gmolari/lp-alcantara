@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+
 :root {
     --primary: #1c1c1c;
     --primary-white: #383838;
@@ -12,10 +15,14 @@ html {
 
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Inria Sans", sans-serif;
     color: var(--secondary);
     background-color: #efefef;
     transition: background-color 0.3s, color 0.3s;
+}
+
+.att{
+    margin: 50px;
 }
 
 header.hero {
@@ -23,8 +30,6 @@ header.hero {
     background: url('https://images.unsplash.com/photo-1510851896000-498520af2236?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center/cover;
     height: 80vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
     color: #efefef;
     transition: color 0.3s;
 }
@@ -32,15 +37,14 @@ header.hero {
 header.hero .overlay {
     height: 100%;
     width: 100%;
-    background: rgba(22, 22, 22, 0.863);
+    background: rgba(22, 22, 22, 0.705);
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 header.hero .name img {
-    max-width: 300px
+    max-width: 300px;
 }
 
 h2 {
@@ -54,14 +58,19 @@ header.hero h1 {
 }
 
 header.hero h2, h1{
-    font-family: serif;
+    font-family: "Inria Sans", sans-serif;
     padding: 0;
     margin: 0;
     letter-spacing: 3px;
 }
 
 header.hero p {
-    font-size: 1.5rem;
+    font-size: 3rem;
+    text-align: left;
+}
+
+strong{
+    color: #c4913e;
 }
 
 .whatsapp-btn {
@@ -109,7 +118,7 @@ section:nth-child(odd) {
 }
 
 section h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 1rem;
 }
 
@@ -152,7 +161,7 @@ section p {
 }
 
 .about p {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .about h2 {
@@ -163,15 +172,16 @@ section p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 70%;
+    max-width: 60%;
 }
 
 .about img {
     position: absolute;
-    width: 350px;
+    width: 330px;
     height: auto;
-    left: 0;
-    bottom: 0;
+    left: 150px;
+    bottom: 20px;
+    border-radius: 15px;
 }
 
 .guarantees .guarantees-grid {
@@ -196,9 +206,13 @@ section p {
     font-size: 0.875rem;
 }
 
+.contact{
+    color: #c4c4c4
+}
+
 footer {
     background-color: var(--primary);
     color: #efefef;
-    padding: 1rem 0;
+    padding: 2px;
     text-align: center;
 }
