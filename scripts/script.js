@@ -6,7 +6,10 @@ document.addEventListener('DOMContentLoaded', function() {
         focusAt: 'center',
         perView: 3,
         breakpoints: {
-            768: {
+            940: {
+                perView: 2
+            },
+            640: {
                 perView: 1
             }
         }
