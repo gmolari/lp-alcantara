@@ -224,10 +224,10 @@ section p {
 
 .about img {
   position: absolute;
-  width: 330px;
-  height: auto;
-  left: 150px;
-  bottom: 20px;
+  width: 480px;
+  height: 450px;
+  left: 50px;
+  bottom: 30px;
   border-radius: 15px;
 }
 
@@ -274,6 +274,10 @@ section p {
     margin-top: 2rem;
   }
 
+  header.hero .name img {
+    width: 100px;
+  }
+
   .whatsapp-btn {
     margin-bottom: 2rem;
   }
@@ -292,6 +296,7 @@ section p {
   .about img {
     position: inherit;
     width: 100%;
+    height: auto;
   }
 
   .about .container-about {
